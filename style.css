@@ -1,9 +1,107 @@
 body {
+  margin: 0;
+  font-size: 16px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
+header {
+  background-color: #703d57;
+}
 
-img {
-  width: 30%;
+.nav-list {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin: 30px 0 100px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-list a,
+footer a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: white;
+}
+.nav-list a:hover,
+footer a:hover {
+  font-weight: bold;
+}
+#intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  background-color: #703d57;
+  color: white;
+  padding-bottom: 100px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-family: "Rubik", sans-serif;
+}
+h2,
+h3 {
+  font-family: "Rubik", sans-serif;
+}
+
+.picture img {
+  height: 300px;
+  border-radius: 10px;
+}
+
+.introduction {
+  max-width: 700px;
+  font-size: 1.2rem;
+}
+
+#work_skills {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  padding: 50px 0;
+}
+
+#education {
+  background-color: #703d57;
+  color: white;
+  padding: 50px 0 50px 0;
+  text-align: center;
+}
+
+#education ul {
+  list-style-type: none;
+}
+#freetime {
+  padding: 50px 50px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+#freetime h2 {
+  text-align: center;
+}
+
+.freetime-pics {
+  text-align: center;
+}
+#freetime img {
+  width: 300px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #703d57;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
