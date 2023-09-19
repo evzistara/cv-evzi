@@ -1,6 +1,8 @@
 body {
   margin: 0;
-  font-size: 16px;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: "Quicksand", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -25,12 +27,13 @@ nav ul {
 .nav-list a,
 footer a {
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: white;
 }
 .nav-list a:hover,
 footer a:hover {
   font-weight: bold;
+  font-size: 1.3rem;
 }
 #intro {
   display: flex;
@@ -39,7 +42,7 @@ footer a:hover {
   gap: 100px;
   background-color: #703d57;
   color: white;
-  padding-bottom: 100px;
+  padding: 0 50px 100px 50px;
 }
 
 h1 {
@@ -53,7 +56,8 @@ h3 {
 
 .picture img {
   height: 300px;
-  border-radius: 10px;
+  border: 4px solid white;
+  border-radius: 20px;
 }
 
 .introduction {
@@ -65,9 +69,15 @@ h3 {
   display: flex;
   justify-content: center;
   gap: 70px;
-  padding: 50px 0;
+  padding: 50px;
 }
-
+.work,
+.skills {
+  max-width: 600px;
+}
+hr {
+  margin: 10px;
+}
 #education {
   background-color: #703d57;
   color: white;
@@ -94,6 +104,7 @@ h3 {
 #freetime img {
   width: 300px;
   margin: 20px;
+  border: 4px solid #703d57;
   border-radius: 10px;
 }
 
